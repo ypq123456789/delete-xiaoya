@@ -6,9 +6,11 @@ def process_data():
     # http://192.168.30.56:xxxx 前面的地址和端口号填入自己的alist的地址
 
     url2 = 'http://xx.xx.xx.xx:5244/api/fs/remove'
-
+    # http://192.168.30.56:xxxx 前面的地址和端口号填入自己的alist的地址
+    
     getAuthUrl = 'http://xx.xx.xx.xx:5244/api/auth/login'
-
+    # http://192.168.30.56:xxxx 前面的地址和端口号填入自己的alist的地址
+    
     authHeaders = {
         'User-Agent': 'Apifox/1.0.0 (https://apifox.com)',
         'Content-Type': 'application/json'
