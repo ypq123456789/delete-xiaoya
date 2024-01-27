@@ -1,4 +1,5 @@
-<img width="315" alt="daf21197b516d1068f585fd16b983382" src="https://github.com/ypq123456789/delete-xiaoya/assets/114487221/81589087-7d89-40a7-8b60-92c0428827b3"># 脚本作用
+# 脚本作用
+
 **可以自动删除小雅转存文件夹内的内容，结合定时计划任务定时清除。**
 
 本文代码来自：https://www.bilibili.com/read/cv28501448/#reply204926778608
