@@ -31,7 +31,8 @@
 
 <img width="401" alt="c6d3bcb52a1d4b9f308c7787f04a88c6" src="https://github.com/ypq123456789/delete-xiaoya/assets/114487221/f844dacf-6b52-410e-9a31-abbd508ff872">
 
-<img width="343" alt="ad559fec6dbc50be09238802eac6a0b8" src="https://github.com/ypq123456789/delete-xiaoya/assets/114487221/b1fc1070-9b19-4a35-a742-c76f5b463a7f">
+<img width="315" alt="daf21197b516d1068f585fd16b983382" src="https://github.com/ypq123456789/delete-xiaoya/assets/114487221/1c903244-3529-4a06-a54b-d52b157bd9ce">
+
 
 打开终端，输入：
 
