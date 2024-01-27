@@ -42,7 +42,7 @@ def process_data():
 
     data = {
         "path": "/阿里云盘Open（备份盘）/小雅临时存储",
-        # path为本地alist挂载阿里云盘的路径
+        # path为本地alist挂载阿里云盘小雅临时存储文件夹的路径
         "password": "",
         "page": 1,
         "per_page": 0,
@@ -51,7 +51,7 @@ def process_data():
 
     data2 = {
         "dir": "/阿里云盘Open（备份盘）/小雅临时存储",
-        # dir为本地alist挂载阿里云盘的路径
+        # dir为本地alist挂载阿里云盘小雅临时存储文件夹的路径
         "names": []
     }
 
