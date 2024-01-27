@@ -26,6 +26,7 @@
 下载文件里面的delete.py，然后放到自己VPS的根目录。
 
 根据代码注释，修改自己的alist域名、账号、密码、alist挂载阿里云盘小雅缓存文件夹的路径，别的不用改。
+
 <img width="337" alt="a9e01c620287c9737140efa7398da048" src="https://github.com/ypq123456789/delete-xiaoya/assets/114487221/b0f1bc4d-e5ee-4722-9444-97f9f96d5fd6">
 
 <img width="401" alt="c6d3bcb52a1d4b9f308c7787f04a88c6" src="https://github.com/ypq123456789/delete-xiaoya/assets/114487221/f844dacf-6b52-410e-9a31-abbd508ff872">
