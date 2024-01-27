@@ -15,7 +15,7 @@
 ·NAS（未测试过）
 
 # 前置条件
-安装python(最好为3.7.9，其他版本没测试过，可能会报错)
+安装python（最好为3.7.9，其他版本没测试过，可能会报错）
 
 平台要支持定时计划任务（VPS可以用宝塔面板，路由器和NAS一般有自己的定时计划系统）
 
@@ -27,7 +27,9 @@
 
 根据代码注释，修改自己的alist域名、账号、密码、alist挂载阿里云盘小雅缓存文件夹的路径，别的不用改。
 <img width="337" alt="a9e01c620287c9737140efa7398da048" src="https://github.com/ypq123456789/delete-xiaoya/assets/114487221/b0f1bc4d-e5ee-4722-9444-97f9f96d5fd6">
+
 <img width="401" alt="c6d3bcb52a1d4b9f308c7787f04a88c6" src="https://github.com/ypq123456789/delete-xiaoya/assets/114487221/f844dacf-6b52-410e-9a31-abbd508ff872">
+
 <img width="343" alt="ad559fec6dbc50be09238802eac6a0b8" src="https://github.com/ypq123456789/delete-xiaoya/assets/114487221/b1fc1070-9b19-4a35-a742-c76f5b463a7f">
 
 打开终端，输入：
@@ -43,7 +45,7 @@ python3 delete.py
 如果切换后还是不能使用，建议将自己使用的平台、python版本、报错的内容和脚本内容输入GPT，请它帮你修改合适的脚本，应该能解决问题。
 
 # 设置定时计划任务
-以安装宝塔面板的VPS平台为例：
+以安装宝塔面板的VPS平台为例，其他平台自行寻找设置方法：
 
 打开宝塔面板，选择计划任务，输入：
 
@@ -51,7 +53,7 @@ cd /
 
 python3 delete.py
 
-执行周期为一分钟。
+执行周期为一分钟。你也可以根据自己的需要自行调整，例如一小时一次，一天一次。
 
 <img width="742" alt="1706272841154" src="https://github.com/ypq123456789/-/assets/114487221/8dc3e304-6cb8-43da-bcdc-c0fd9e610c4f">
 
