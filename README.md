@@ -10,7 +10,7 @@
 # 适用平台
 ·VPS（最好用Ubuntu x86_64，其他没测试过，可能会报错）
 
-·路由器(openwrt经测试可以用)
+·路由器（openwrt经测试可以用）
 
 ·NAS（未测试过）
 
@@ -21,11 +21,26 @@
 
 具体怎么安装自行搜寻，不赘述。
 
-# 操作步骤
+# 测试脚本是否生效
 
 下载文件里面的delete.py，然后放到自己VPS的根目录。
 
 根据代码注释，修改自己的alist域名、账号、密码、alist挂载阿里云盘小雅缓存文件夹的路径，别的不用改。
+<img width="337" alt="a9e01c620287c9737140efa7398da048" src="https://github.com/ypq123456789/delete-xiaoya/assets/114487221/b0f1bc4d-e5ee-4722-9444-97f9f96d5fd6">
+<img width="401" alt="c6d3bcb52a1d4b9f308c7787f04a88c6" src="https://github.com/ypq123456789/delete-xiaoya/assets/114487221/f844dacf-6b52-410e-9a31-abbd508ff872">
+<img width="343" alt="ad559fec6dbc50be09238802eac6a0b8" src="https://github.com/ypq123456789/delete-xiaoya/assets/114487221/b1fc1070-9b19-4a35-a742-c76f5b463a7f">
+
+打开终端，输入：
+
+cd /
+
+python3 delete.py
+
+如果没有任何反应，打开阿里云盘的小雅转存文件夹，看到内部文件被删除，说明脚本生效了。
+
+如果报错，说明可能python版本和平台有问题，建议使用VPS和python3.79再试试。
+
+如果切换后还是不能使用，建议将自己使用的平台、python版本、报错的内容和脚本内容输入GPT，请它帮你修改合适的脚本，应该能解决问题。
 
 # 设置定时计划任务
 以安装宝塔面板的VPS平台为例：
